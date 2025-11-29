@@ -97,7 +97,7 @@ a {
 :root :where(.wp-block-template-part){margin-top: 0px;}
 </style>
 <style id="core-block-supports-inline-css">
-.wp-elements-8335158a4b3706e42c4186965667bff4 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--background);}.wp-container-core-group-is-layout-6c531013{flex-wrap:nowrap;}.wp-container-core-navigation-is-layout-8fe59304{gap:var(--wp--preset--spacing--30);justify-content:center;}.wp-container-core-buttons-is-layout-d445cf74{justify-content:flex-end;}.wp-container-core-group-is-layout-e01ce449{grid-template-columns:repeat(3, minmax(0, 1fr));gap:0;}.wp-container-2{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-elements-65cded62d98257ba41ae5394f2afa404 a:where(:not(.wp-element-button)){color:#fce38a;}.wp-elements-65cded62d98257ba41ae5394f2afa404 a:where(:not(.wp-element-button)):hover{color:var(--wp--preset--color--background);}.wp-container-content-6388d5dc{flex-basis:100px;}.wp-container-core-group-is-layout-57f16656{flex-wrap:nowrap;justify-content:center;}
+.wp-elements-8335158a4b3706e42c4186965667bff4 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--background);}.wp-container-core-group-is-layout-6c531013{flex-wrap:nowrap;}.wp-container-core-navigation-is-layout-b3e40c52{gap:var(--wp--preset--spacing--30);justify-content:center;}.wp-container-core-buttons-is-layout-d445cf74{justify-content:flex-end;}.wp-container-core-group-is-layout-e01ce449{grid-template-columns:repeat(3, minmax(0, 1fr));gap:0;}.wp-container-2{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-container-core-navigation-is-layout-0b9aab68{gap:var(--wp--preset--spacing--30);justify-content:flex-end;}.wp-container-4{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-elements-65cded62d98257ba41ae5394f2afa404 a:where(:not(.wp-element-button)){color:#fce38a;}.wp-elements-65cded62d98257ba41ae5394f2afa404 a:where(:not(.wp-element-button)):hover{color:var(--wp--preset--color--background);}.wp-container-content-6388d5dc{flex-basis:100px;}.wp-container-core-group-is-layout-57f16656{flex-wrap:nowrap;justify-content:center;}
 </style>
 <style id="wp-block-template-skip-link-inline-css">
 
@@ -131,6 +131,28 @@ a {
 </style>
 <link rel="stylesheet" id="awb-css" href="/wp-content/plugins/advanced-backgrounds/assets/awb/awb.min.css?ver=1.12.7" media="all">
 <link rel="stylesheet" id="extendable-style-css" href="/wp-content/themes/extendable/style.css?ver=2.0.29" media="all">
+<style id="block-visibility-screen-size-styles-inline-css">
+/* Large screens (desktops, 992px and up) */
+@media ( min-width: 992px ) {
+	.block-visibility-hide-large-screen {
+		display: none !important;
+	}
+}
+
+/* Medium screens (tablets, between 768px and 992px) */
+@media ( min-width: 768px ) and ( max-width: 991.98px ) {
+	.block-visibility-hide-medium-screen {
+		display: none !important;
+	}
+}
+
+/* Small screens (mobile devices, less than 768px) */
+@media ( max-width: 767.98px ) {
+	.block-visibility-hide-small-screen {
+		display: none !important;
+	}
+}
+</style>
 <!--n2css--><!--n2js--><link rel="https://api.w.org/" href="/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/265"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.8.3">
 <link rel="canonical" href="/tka/">
@@ -181,7 +203,7 @@ a {
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2025/10/Color-logo-no-background-300x300.png">
 	<!-- Fonts Plugin CSS - https://fontsplugin.com/ -->
 	<style>
-		/* Cached: November 25, 2025 at 12:47pm */
+		/* Cached: November 29, 2025 at 7:29pm */
 /* cyrillic-ext */
 @font-face {
   font-family: 'Inter';
@@ -1776,13 +1798,13 @@ font-family: "Playfair Display";
 <h1 style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20);" class="has-link-color wp-elements-8335158a4b3706e42c4186965667bff4 wp-block-site-title has-text-color has-background-color has-medium-font-size has-playfair-display-font-family"><a href="/" target="_self" rel="home">Table 1 Creative Company</a></h1></div>
 
 
-<nav class="has-text-color has-background-color has-small-font-size is-responsive items-justified-center wp-block-navigation is-content-justification-center is-layout-flex wp-container-core-navigation-is-layout-8fe59304 wp-block-navigation-is-layout-flex" aria-label="Navigation" data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" data-wp-on-async--click="actions.openMenuOnClick" data-wp-on--keydown="actions.handleMenuKeydown"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+<nav class="has-text-color has-background-color has-small-font-size is-responsive items-justified-center wp-block-navigation is-content-justification-center is-layout-flex wp-container-core-navigation-is-layout-b3e40c52 wp-block-navigation-is-layout-flex" aria-label="Navigation" data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" data-wp-on-async--click="actions.openMenuOnClick" data-wp-on--keydown="actions.handleMenuKeydown"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
 				<div class="wp-block-navigation__responsive-container  has-text-color has-foreground-color" id="modal-1" data-wp-class--has-modal-open="state.isMenuOpen" data-wp-class--is-menu-open="state.isMenuOpen" data-wp-watch="callbacks.initMenu" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--focusout="actions.handleMenuFocusout" tabindex="-1">
 					<div class="wp-block-navigation__responsive-close" tabindex="-1">
 						<div class="wp-block-navigation__responsive-dialog" data-wp-bind--aria-modal="state.ariaModal" data-wp-bind--aria-label="state.ariaLabel" data-wp-bind--role="state.roleAttribute">
 							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" data-wp-on-async--click="actions.closeMenuOnClick"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
 							<div class="wp-block-navigation__responsive-container-content" data-wp-watch="callbacks.focusFirstElement" id="modal-1-content">
-								<ul class="wp-block-navigation__container has-text-color has-background-color has-small-font-size is-responsive items-justified-center wp-block-navigation has-small-font-size"><li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link has-playfair-display-font-family"><a class="wp-block-navigation-item__content" href="/tka"><span class="wp-block-navigation-item__label">Te Kāpehu Auaha</span></a></li><li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/projects"><span class="wp-block-navigation-item__label">Projects</span></a></li><li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link has-playfair-display-font-family"><a class="wp-block-navigation-item__content" href="/about"><span class="wp-block-navigation-item__label">About Us</span></a></li></ul>
+								<ul class="wp-block-navigation__container has-text-color has-background-color has-small-font-size is-responsive items-justified-center wp-block-navigation has-small-font-size"><li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link has-playfair-display-font-family"><a class="wp-block-navigation-item__content" href="/tka"><span class="wp-block-navigation-item__label">Te Kāpehu Auaha</span></a></li><li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link has-playfair-display-font-family"><a class="wp-block-navigation-item__content" href="/projects"><span class="wp-block-navigation-item__label">Projects</span></a></li><li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link has-playfair-display-font-family"><a class="wp-block-navigation-item__content" href="/about"><span class="wp-block-navigation-item__label">About Us</span></a></li></ul>
 							</div>
 						</div>
 					</div>
@@ -1793,6 +1815,8 @@ font-family: "Playfair Display";
 <div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-foreground-alt-color has-text-color has-background has-link-color wp-element-button" style="border-radius:6px;background:linear-gradient(135deg,rgb(252,227,138) 0%,rgb(203,178,86) 100%)">Get in Touch</a></div>
 </div>
 </header>
+
+
 
 
 
